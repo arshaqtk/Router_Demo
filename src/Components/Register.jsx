@@ -25,7 +25,7 @@ function Register() {
     <div style={{ width: 400, margin: '40px', padding: 20, border: '1px solid #ccc', borderRadius: 8 }}>
       <h2>Register</h2>
       <form onSubmit={handleSubmit}>
-        <div style={{ marginBottom: 12 }}>
+        <div style={{ marginBottom: 12, marginLeft:12}}>
           <label>Name:</label><br />
           <input
             type="text"
